@@ -1,0 +1,18 @@
+Project Overview
+Goal: Build a web app where users can label images interactively. The app uses active learning to intelligently select regions (e.g., objects, edges) that need labeling, reducing the total effort required.
+
+Key Features:
+1. Upload and preprocess images.
+2. Highlight regions where the model is uncertain (using scikit-activeml).
+3. Let users label these regions via clicks.
+4. Retrain the model incrementally and visualize improvements.
+5. Track labeled data and model performance in real time.
+
+Strategy: Deep Pool-Based Active Learning
+
+Libraries Used:
+- scikit-activeml: perform pool-based active learning
+- scikit-image: image classification algorithm
+- 
+
+Dataset used:
