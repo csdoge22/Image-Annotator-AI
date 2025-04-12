@@ -1,1 +1,3 @@
 ienv/
+.env
+.cfg
